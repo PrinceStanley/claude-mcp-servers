@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "k8s-mcp": {
+      "command": "uv",
+      "args": ["run", "C:\\Path\\to\\mcp_k8s_server.py"],
+      "transport": "sse"
+    },
+    "esxi-mcp": {
+      "command": "python",
+      "args": ["C:\\Path\\to\\mcp_esxi_server.py"],
+      "transport": "sse"
+    }
+  }
+}
