@@ -1,0 +1,7 @@
+pyvmomi
+uv
+mcp[cli]
+mcp
+httpx
+kubernetes
+requests
